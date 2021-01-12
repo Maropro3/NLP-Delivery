@@ -9,8 +9,6 @@ library(quanteda)
 library(stringr) 
 library(tidytext)
 
-#Set Working directory
-setwd("C:\\Users\\pablo\\Desktop\\NLP")
 #Dowload CSV from github and read it
 x <- read.csv("https://raw.githubusercontent.com/Maropro3/NLP-Delivery/main/PerSent.csv", header = TRUE)
 #Clean the dataset from non-useful characters
